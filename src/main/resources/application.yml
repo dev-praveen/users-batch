@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: users-batch
+
+  # PostgreSQL Configuration
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=batch_db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  # Spring Batch Configuration
+  batch:
+    jdbc:
+      initialize-schema: ALWAYS
+
+logging:
+  level:
+    org.springframework.batch.core.step.item.ChunkMonitor: ERROR
+
+input:
+  file: users_data.csv

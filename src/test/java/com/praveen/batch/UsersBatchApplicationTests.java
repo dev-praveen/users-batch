@@ -1,0 +1,13 @@
+package com.praveen.batch;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class UsersBatchApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
