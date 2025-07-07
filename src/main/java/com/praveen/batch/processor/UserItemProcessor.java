@@ -1,4 +1,4 @@
-package com.praveen.batch.config;
+package com.praveen.batch.processor;
 
 import com.praveen.batch.model.Gender;
 import com.praveen.batch.model.UserDbRecord;

@@ -18,4 +18,4 @@ logging:
     org.springframework.batch.core.step.item.ChunkMonitor: ERROR
 
 input:
-  file: users_data.csv
+  file: C:\Users\91740\Downloads\users_data.csv

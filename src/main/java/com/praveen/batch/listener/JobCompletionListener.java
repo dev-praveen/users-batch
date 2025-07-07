@@ -1,4 +1,4 @@
-package com.praveen.batch.config;
+package com.praveen.batch.listener;
 
 import org.springframework.batch.core.BatchStatus;
 import org.springframework.batch.core.JobExecution;
