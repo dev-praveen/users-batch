@@ -40,8 +40,6 @@ public class BatchConfig {
     return new FlatFileItemReaderBuilder<UserCsvRecord>()
         .name("userItemReader")
         .resource(new FileSystemResource(inputFile))
-        .delimited()
-        .names("First Name", "Last Name", "Sex", "Email", "Phone", "Date of birth", "Job Title")
         .linesToSkip(1)
         .lineMapper(getLineMapper())
         .build();
